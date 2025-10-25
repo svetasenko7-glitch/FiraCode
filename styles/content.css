@@ -159,12 +159,9 @@ p.right{
     align-content: flex-start;
     justify-content: center;
 }
-.fc-800{
-	font-weight: 800;
-}
+
 .fc-700{
 	font-weight: 700;
-}
 }
 .fc-600{
 	font-weight: 600;
