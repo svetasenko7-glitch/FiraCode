@@ -132,10 +132,10 @@ p.right{
 	padding: 6px;
 	width: 16.66667%;
 	padding-right: 10px;
+	border:1px solid var(--bg);
 }
 .fc-weight-item.active{
-	border:1px solid var(--white);
-	
+	border-color: var(--white);
 }
 .fc-weight-left{
 	background: var(--dark-gray);
@@ -148,7 +148,7 @@ p.right{
     align-content: center;
 	align-items: center;
 	font-size: 44px;
-	margin-right: 12px;
+	margin-right: 10px;
 }
 
 .fc-weight-right{
