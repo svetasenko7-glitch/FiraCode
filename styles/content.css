@@ -39,6 +39,7 @@ section.full{
 p{
 	font-size: 28px;
 	margin: 0px;
+	line-height: 1.55;
 }
 a{
 	color: var(--white);
@@ -114,7 +115,6 @@ p.right{
 }
 .desc p{
 	max-width:850px;
-	line-height: 1.55;
 }
 .desc p span{
 	font-weight: 700;
