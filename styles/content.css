@@ -62,7 +62,6 @@ h2 {
 }
 
 h2 .top-span {
-    font-weight: 600;
     margin-left: 43px;
     letter-spacing: 9px;
     display: block;
@@ -436,7 +435,6 @@ ul.lang li.active{
 .window-example{
 	padding: 20px 20px 54px 20px;
 	font-size: 18px;
-	font-weight: 400;
 }
 .window-example strong{
 	font-weight: 700;
