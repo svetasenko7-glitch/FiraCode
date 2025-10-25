@@ -134,9 +134,11 @@ p.right{
 	padding-right: 10px;
 	border:1px solid var(--bg);
 }
-.fc-weight-item.active{
+.fc-weight-item.active,
+.fc-weight-item:hover{
 	border-color: var(--white);
 }
+
 .fc-weight-left{
 	background: var(--dark-gray);
 	width: 68.34px;
