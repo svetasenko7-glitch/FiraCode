@@ -421,8 +421,8 @@ ul.lang li.active{
     text-align: center;
 	
 }
-.ligatur-item:not(:first-child):not(:nth-child(2)) {
-    margin-left: 0; 
+.ligatur-item:first-child{
+    margin-right: 38px; 
 }
 
 .examples{
