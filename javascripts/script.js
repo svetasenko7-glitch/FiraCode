@@ -7,6 +7,16 @@ document.addEventListener('DOMContentLoaded', function() {
             this.classList.add('active');
         });
     });
+
+    const weightItems = document.querySelectorAll('.fc-weight-item');
+    
+    weightItems.forEach(item => {
+        item.addEventListener('click', function() {
+            weightItems.forEach(el => el.classList.remove('active'));
+            this.classList.add('active');
+        });
+    });
+    
 });
 
 
