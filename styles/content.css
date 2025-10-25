@@ -423,8 +423,8 @@ ul.lang li.active{
     text-align: center;
 	
 }
-.ligatur .ligatur-item:first-child{
-    margin-right: 38px; 
+.ligatur .ligatur-item:nth-child(1){
+    margin-right: 38px!important; 
 }
 .examples{
 	display: flex;
