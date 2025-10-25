@@ -133,6 +133,7 @@ p.right{
 	width: 16.66667%;
 	padding-right: 10px;
 	border:1px solid var(--bg);
+	cursor:pointer;
 }
 .fc-weight-item.active,
 .fc-weight-item:hover{
@@ -402,7 +403,7 @@ ul.lang li.active{
     text-align: center;
 	
 }
-.ligatur .ligatur-item:nth-child(1){
+.ligatur-item:first-child{
     margin-right: 38px!important; 
 }
 .examples{
