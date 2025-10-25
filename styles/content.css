@@ -11,7 +11,7 @@
 body {
     max-width: 1440px;
     margin: 81px auto 106px auto;
-    font-family: "FiraCode", monospace;
+    font-family: "Fira Code", monospace;
     background: var(--bg);
     color: var(--white);
     background-position: top;
