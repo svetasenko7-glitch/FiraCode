@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 :root {
     --gray: #EEEEEE;
 	--light-gray: #EFEFEF;
@@ -30,6 +37,8 @@ section.full{
 	margin-top: 74px;
 }
 .s1{
+	display:-webkit-box;
+	display:-ms-flexbox;
 	display:flex;
 	margin-bottom: 228px;
 }
@@ -65,6 +74,8 @@ h2 .top-span {
     margin-left: 43px;
     letter-spacing: 9px;
     display: block;
+    width: -webkit-max-content;
+    width: -moz-max-content;
     width: max-content;
 }
 h2.first .top-span{
@@ -120,12 +131,18 @@ p.right{
 	letter-spacing: 29px;
 }
 .fc-weight{
+	display:-webkit-box;
+	display:-ms-flexbox;
 	display:flex;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	margin-top: 49px;
 	margin-bottom: 38px;
 }
 .fc-weight-item{
+	display:-webkit-box;
+	display:-ms-flexbox;
 	display:flex;
 	padding: 6px;
 	width: 16.66667%;
@@ -144,19 +161,34 @@ p.right{
 	min-width: 68.34px;
 	height: 67.29px;
 	min-height: 67.29px;
+	display:-webkit-box;
+	display:-ms-flexbox;
 	display:flex;
-	justify-content: center;
-    align-content: center;
-	align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	font-size: 44px;
 	margin-right: 10px;
 }
 
 .fc-weight-right{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-    flex-direction: column;
-    align-content: flex-start;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .fc-700{
@@ -235,6 +267,8 @@ ul.lang li:hover,
 ul.lang li.active{
 	background: var(--bg);
 	color: var(--white);
+	-webkit-transition: opacity 0.5s ease;
+	-o-transition: opacity 0.5s ease;
 	transition: opacity 0.5s ease;
 	-moz-transform: opacity 0.5s ease;    
 	-webkit-transform: opacity 0.5s ease; 
@@ -272,9 +306,16 @@ ul.lang li.active{
 }
 
 .for-whom-item{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 	letter-spacing: 1px;
 	color: var(--white);
 }
@@ -295,17 +336,31 @@ ul.lang li.active{
 	font-size:30px;
 }
 .dynamic-chevrons-after {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     overflow: hidden;
     white-space: nowrap;
-	justify-content: flex-end;
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
 }
 .dynamic-chevrons-before {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     overflow: hidden;
     white-space: nowrap;
 }
@@ -360,13 +415,18 @@ ul.lang li.active{
 }
 
 .window-btn{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
     gap: 75px;
     position: absolute;
     right: 25px;
     top: 16px;
-	align-items: center;
-    justify-content: space-around;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
 }
 .window-btn img{
 	width: 19px;
@@ -376,21 +436,34 @@ ul.lang li.active{
 	margin:94px 0px 110px;
 }
 .ligatur{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-    flex-wrap: wrap;
-	justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	gap: 20px;
 }
 .ligatur-desc {
 	width: 66.66%;
 }
 .ligatur-item{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-bottom: 70px;
     width: 16.66%;
-    flex-shrink: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
 	max-width: 129px;
 }
 .ligatur-item-head{
@@ -405,9 +478,14 @@ ul.lang li.active{
     margin-right: 38px!important; 
 }
 .examples{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-    justify-content: space-between;
-    align-content: stretch;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
 	margin-bottom: 20px;
 }
 
@@ -417,15 +495,23 @@ ul.lang li.active{
 	color: var(--bg);
 }
 .window-head {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	padding: 20px;
 	font-size: 24px;
 	gap: 70px;
 	border-bottom: 1px solid var(--border-gray);
-	justify-content: space-between;
-    align-items: center;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .window-head-btn{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	gap: 60px;
 }
