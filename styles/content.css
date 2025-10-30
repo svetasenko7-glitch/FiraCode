@@ -110,7 +110,7 @@ p.right{
 	text-align: right;
 	line-height: 1.4;
 	font-size: 22px;
-	color: var(----light-gray);
+	color: var(--light-gray);
 }
 .desc{
 	margin-bottom: 107px;
@@ -128,8 +128,8 @@ p.right{
 	display:-ms-flexbox;
 	display:flex;
 	-webkit-box-pack: justify;
-	    -ms-flex-pack: justify;
-	        justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
 	margin-top: 49px;
 	margin-bottom: 38px;
 }
@@ -158,13 +158,13 @@ p.right{
 	display:-ms-flexbox;
 	display:flex;
 	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
     -ms-flex-line-pack: center;
-        align-content: center;
+    align-content: center;
 	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
 	font-size: 44px;
 	margin-right: 10px;
 }
@@ -175,13 +175,13 @@ p.right{
 	display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -ms-flex-line-pack: start;
-        align-content: flex-start;
+    align-content: flex-start;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 .fc-700{
@@ -304,11 +304,11 @@ ul.lang li.active{
 	display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 	letter-spacing: 1px;
 	color: var(--white);
 }
@@ -336,13 +336,13 @@ ul.lang li.active{
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     overflow: hidden;
     white-space: nowrap;
 	-webkit-box-pack: end;
-	    -ms-flex-pack: end;
-	        justify-content: flex-end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
 }
 .dynamic-chevrons-before {
     height: -webkit-fit-content;
@@ -352,8 +352,8 @@ ul.lang li.active{
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     overflow: hidden;
     white-space: nowrap;
 }
@@ -416,10 +416,10 @@ ul.lang li.active{
     right: 25px;
     top: 16px;
 	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
 }
 .window-btn img{
 	width: 19px;
@@ -433,10 +433,10 @@ ul.lang li.active{
 	display: -ms-flexbox;
 	display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
 	-webkit-box-pack: justify;
-	    -ms-flex-pack: justify;
-	        justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
 	gap: 20px;
 }
 .ligatur-desc {
@@ -448,15 +448,15 @@ ul.lang li.active{
 	display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     margin-bottom: 70px;
     width: 16.66%;
     -ms-flex-negative: 0;
-        flex-shrink: 0;
+    flex-shrink: 0;
 	max-width: 129px;
 }
 .ligatur-item-head{
@@ -475,10 +475,10 @@ ul.lang li.active{
 	display: -ms-flexbox;
 	display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -ms-flex-line-pack: stretch;
-        align-content: stretch;
+    align-content: stretch;
 	margin-bottom: 20px;
 }
 
@@ -496,11 +496,11 @@ ul.lang li.active{
 	gap: 70px;
 	border-bottom: 1px solid var(--border-gray);
 	-webkit-box-pack: justify;
-	    -ms-flex-pack: justify;
-	        justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 .window-head-btn{
 	display: -webkit-box;
