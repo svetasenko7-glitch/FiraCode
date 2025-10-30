@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-
+// Скрипт сгенерирован в DeepSeek.com
 function fillWithChevrons() {
     const chevronSelectors = ['dynamic-chevrons-before', 'dynamic-chevrons-after'];
     
